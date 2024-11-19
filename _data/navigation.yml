@@ -1,0 +1,48 @@
+header:
+  - titles:
+      # @start locale config
+      en      : &EN       Home
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+    url: /index.html
+  - titles:
+      # @start locale config
+      en      : &EN       Archive
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+    url: /archive.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       About
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /about.html
+docs-en:
+  - title:      W.I.L.D.
+    children:
+      - title:  Mission
+        url:    /wild/mission
+      - title:  Problem
+        url:    /wild/problem
+      - title:  Benefits
+        url:    /wild/benefits
+      - title:  Research
+        url:    /wild/research
+  - title:      Strategy
+    children:
+      - title:  IN PROGRESS
+        url:    /wild/strategy
+  - title:      Partners
+    children:
+      - title:  East Mountains
+        url:    /wild/eastmountain
+      - title:  WIP
+        url:    /wild/WIP
